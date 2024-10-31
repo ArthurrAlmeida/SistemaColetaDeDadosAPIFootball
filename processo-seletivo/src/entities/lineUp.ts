@@ -1,11 +1,15 @@
-import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, ManyToOne, JoinColumn } from 'typeorm';
+import { Entity, Column, PrimaryColumn, CreateDateColumn, UpdateDateColumn, ManyToOne, JoinColumn, PrimaryGeneratedColumn } from 'typeorm';
 import { team } from './team';
 import { player } from './player';
 import { game } from './game';
 
 @Entity('lineUp')
 export class lineUp {
-  @PrimaryGeneratedColumn({type:'smallint', name:'game'})
+
+  @PrimaryGeneratedColumn({type:'smallint', name:'id'})
+  id: number;
+
+  @Column({type:'smallint', name:'game'})
   game: number;
 
   @Column({type:'smallint', name:'playerHome', nullable:true})

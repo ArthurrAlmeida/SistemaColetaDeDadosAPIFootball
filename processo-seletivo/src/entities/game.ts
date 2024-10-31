@@ -29,6 +29,9 @@ export class game {
   @Column({type:'smallint', name:'scoreVisited'})
   scoreVisited: number;
 
+  @Column({type:'timestamp', name:'schedule'})
+  schedule: Date;
+
   @CreateDateColumn({type:'timestamp', name:'createdAt'})
   createdAt: Date;
 

@@ -10,6 +10,9 @@ export class player {
   @Column({type:'smallint', name:'team'})
   team: number
 
+  @Column({type:'character varying', name:'externalID', length:16})
+  externalID: string;
+
   @Column({type:'character varying', name:'fullname', length:255})
   fullname: string;
 

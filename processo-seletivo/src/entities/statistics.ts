@@ -49,11 +49,11 @@ export class statistics {
   @Column({type:'smallint', name:'visitedYellowCards'})
   visitedYellowCards: number;
 
-  @Column({type:'smallint', name:'homeRedCards'})
-  homeRedCards: number;
+  @Column({type:'smallint', name:'homePenalty'})
+  homePenalty: number;
 
-  @Column({type:'smallint', name:'visitedRedCards'})
-  visitedRedCards: number;
+  @Column({type:'smallint', name:'visitedPenalty'})
+  visitedPenalty: number;
 
   @CreateDateColumn({type:'timestamp', name:'createdAt'})
   createdAt: Date;

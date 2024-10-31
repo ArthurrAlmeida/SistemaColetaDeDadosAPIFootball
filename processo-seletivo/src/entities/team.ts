@@ -8,6 +8,9 @@ export class team {
   @PrimaryGeneratedColumn({type:'smallint', name:'id'})
   id: number;
 
+  @Column({type:'character varying', name:'externalID', length:16})
+  externalID: string;
+
   @Column({type:'character varying', name:'name', length:255})
   name: string;
 
