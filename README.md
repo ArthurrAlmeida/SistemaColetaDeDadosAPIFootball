@@ -13,6 +13,7 @@ API utilizada: https://apifootball.com/
 ## Desenho do banco
 ![Desenho do BD](https://github.com/user-attachments/assets/dbd3e640-9c3f-4a73-9a11-5b694413c0e1)
 
+Link para acesso do desenho e código: https://dbdiagram.io/d/Copy-of-Untitled-Diagram-67192de997a66db9a3086745
 
 ## Tecnologias e Dependências
 
