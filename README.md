@@ -4,6 +4,8 @@
 Sistema desenvolvido em **TypeScript** usando o framework **NestJS**. Ele fornece endpoints para consultar dados de futebol, como informações de partidas, times, ligas, entre outros. 
 O projeto utiliza **PostgreSQL 16** como banco de dados e **TypeORM** para a camada de ORM. A documentação do sistema é gerada com **Swagger**.
 
+O sistema busca dados da LaLiga 24/25, atualizando a cada **2 minutos** os jogos da temporada e armazenando os dados num banco de dados relacional PostgreSQL.
+
 API utilizada: https://apifootball.com/
 
 ## Desenho do projeto
