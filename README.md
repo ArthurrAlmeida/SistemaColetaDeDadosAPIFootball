@@ -1,5 +1,5 @@
 
-# API de Futebol ⚽️
+# Sistema Coleta Dados LaLiga 24/25 ⚽️
 
 Sistema desenvolvido em **TypeScript** usando o framework **NestJS**. Ele fornece endpoints para consultar dados de futebol, como informações de partidas, times, ligas, entre outros. 
 O projeto utiliza **PostgreSQL 16** como banco de dados e **TypeORM** para a camada de ORM. A documentação do sistema é gerada com **Swagger**.
