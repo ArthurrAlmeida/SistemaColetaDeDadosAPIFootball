@@ -17,6 +17,14 @@ API utilizada: https://apifootball.com/
 
 Link para acesso do desenho e código: https://dbdiagram.io/d/Copy-of-Untitled-Diagram-67192de997a66db9a3086745
 
+## Gráficos
+
+#### Gols Totais
+![image](https://github.com/user-attachments/assets/4b7b23f3-351c-41e0-8e47-6029061bea9c)
+
+#### Estatisticas Gerais
+![image](https://github.com/user-attachments/assets/7613fb9c-c82b-4845-9e06-5304e62c2c1b)
+
 ## Tecnologias e Dependências
 
 - **TypeScript**
@@ -144,12 +152,3 @@ src
 - **Iniciar em modo desenvolvimento**: `yarn start:dev`
 - **Executar testes**: `yarn test`
 - **Executar migrations**: `yarn typeorm migration:run`
-
-
-## Gráficos
-
-#### Gols Totais
-![image](https://github.com/user-attachments/assets/4b7b23f3-351c-41e0-8e47-6029061bea9c)
-
-#### Estatisticas Gerais
-![image](https://github.com/user-attachments/assets/7613fb9c-c82b-4845-9e06-5304e62c2c1b)
